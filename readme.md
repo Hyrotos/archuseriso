@@ -1,6 +1,11 @@
 Description
 ===========
 
+Kurzanleitung:
+ISO erzeugen: sudo aui-mkiso --language=de ./profiles/kde
+Arbeitsverzeichnis wieder löschen: sudo rm -R work
+testen: aui-run -u -i out/archlinux_hyrotos-2023.04.07-x64.iso
+
 Archuseriso is a set of scripts for creating bootable disk images of Arch Linux and installing an Arch Linux system to an external USB disk or thumb drive.
 
 The build of disk images is based on the Archiso program used by Arch Linux developers to build the monthly iso images.
